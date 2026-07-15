@@ -1,0 +1,43 @@
+# R
+.RData
+.Rhistory
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+
+# Data files (DO NOT upload raw data!)
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.bai
+*.bigWig
+*.h5
+*.h5ad
+*.rds
+*.RDS
+
+# Large output files
+results/
+figures/*.png
+figures/*.pdf
+figures/*.svg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+slurm-*.out
